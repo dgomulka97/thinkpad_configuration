@@ -1,6 +1,6 @@
 # What is it?
 It's just a configuration I had to use for my ThinkPad after moving from Windows to Ubuntu. I wanted to keep my undervolting without ThrottleStop and to keep my battery tresholds.  
-**Warning**   
+> **Warning**   
 If you want to use these lines, just keep in mind that 3rd step will be different for everybody. Don't just copy-paste commands from internet, read about undervolting first!
 
 # Step by step
