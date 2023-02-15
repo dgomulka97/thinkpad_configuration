@@ -13,7 +13,7 @@ If you want to use these commands, just keep in mind that 3rd step will be diffe
 2. Install tlpui and undervolt:
     ```bash
     sudo add-apt-repository -y ppa:linuxuprising/apps && sudo apt update
-    sudo apt install tlpui
+    sudo apt install -y tlpui
     sudo pip install undervolt
     ```
 3. Read current undervolt stats, then set your own configuration and start the service:
