@@ -19,7 +19,7 @@ If you want to use these commands, just keep in mind that 3rd step will be diffe
 3. Read current undervolt stats, then set your own configuration and start the service:
     ```bash
     sudo undervolt --read
-    sudo undervolt --core -115 --cache -115 --gpu -80
+    sudo undervolt --core -105 --cache -105 --gpu -70
     sudo systemctl start undervolt
     ```
 4. Clone repository anywhere:
