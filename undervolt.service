@@ -3,4 +3,4 @@ Description=undervolt
 
 [Service]
 Type=oneshot
-ExecStart=/usr/local/bin/undervolt -v --core -115 --cache -115 --gpu -80
+ExecStart=/usr/local/bin/undervolt -v --core -105 --cache -105 --gpu -70
