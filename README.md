@@ -16,11 +16,10 @@ If you want to use these commands, just keep in mind that 3rd step will be diffe
     sudo apt install -y tlpui
     sudo pip install undervolt
     ```
-3. Read current undervolt stats, then set your own configuration and start the service:
+3. Read current undervolt stats, then set your own configuration:
     ```bash
     sudo undervolt --read
     sudo undervolt --core -105 --cache -105 --gpu -70
-    sudo systemctl start undervolt
     ```
 4. Clone repository anywhere:
     ```bash
@@ -31,8 +30,9 @@ If you want to use these commands, just keep in mind that 3rd step will be diffe
     cd thinkpad_configuration
     sudo cp undervolt.service /etc/systemd/system/undervolt.service
     sudo cp undervolt.timer /etc/systemd/system/undervolt.timer
-6. Start and enable timer:
+6. Start and enable services:
     ```bash
+    sudo systemctl start undervolt
     sudo systemctl enable undervolt.timer
     sudo systemctl start undervolt.timer
     ```
